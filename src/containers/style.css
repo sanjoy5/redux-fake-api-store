@@ -1,0 +1,36 @@
+.imgSize {
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+    padding: 20px 10px 10px 10px;
+}
+
+.titleSize {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.singleProduct .singleImage {
+
+    height: 500px;
+    width: 100%;
+}
+
+.singleProduct .singleImage img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    float: right;
+}
+
+.qty {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
